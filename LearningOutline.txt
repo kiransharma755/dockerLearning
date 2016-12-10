@@ -1,0 +1,81 @@
+system desing -- high level 
+
+detailed system desing 
+
+Maintenance annd support
+
+
+
+
+System to work on 
+================
+
+1. jbosss
+2. MQ
+3. WAS
+4. myqs
+5. apache httpd
+
+==================additonal software
+5. ldap 
+6. openssl 
+8. nagios/nre relic
+==============
+
+
+optional but useful software
+
+redis /memchachsed -- in memory chase
+
+
+tasks for paul tonight 
+======================
+Req 
+Create github account for paul 
+
+aws account 
+
+
+
+---------------------------------
+Process 
+
+Create docker file --- 1st step
+
+After we are done basic
+
+jenkins/mavin/plugins
+
+
+u there paul? i can hear you. 
+
+
+
+
+===========
+git tutorials
+https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively
+https://www.atlassian.com/git/tutorials/
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04
+
+Resources for installing and config various software 
+====================================================
+https://www.server-world.info/en/note?os=CentOS_6&p=ldap
+
+
+
+images/dockerfile resources
+https://github.com/jboss-dockerfiles/wildfly/blob/master/Dockerfile
+
+
+jboss 
+monitoring
+https://github.com/alegomes/jbosstuning/blob/master/monitoring/
+
+https://github.com/lucioveloso/docker_apache_modcluster/blob/master/Dockerfile
+
+dockerfile
+modcluster
+https://github.com/erickbrower/docker-modcluster/blob/master/Dockerfile
+
+
