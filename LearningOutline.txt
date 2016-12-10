@@ -1,22 +1,24 @@
 Document to be prepared 
 ===========================
 system desing -- high level 
+
 Detailed system desing 
+
 Maintenance annd support
 
 
 System to work on 
 ================
-1. jbosss
-2. MQ
-3. WAS
-4. myqs/mariadb/posgressql 
-5. apache httpd
+1. jbosss --p
+2. MQ - k
+3. WAS--k
+4. myqs/mariadb/posgressql --p
+5. apache httpd --p
 6. cache ( infinispan/memchched/redis)
 ==================additonal software
-5. ldap 
-6. openssl 
-8. nagios/nre relic
+5. ldap --pk
+6. openssl  --kp
+8. nagios/nre relic -pk
 ==============
 9. centralised logging systems 
 ELK/splunk( commercial)
@@ -32,6 +34,9 @@ jboss domain
 centralised deployment
 
 
+Tasks 
+=====
+1. Create dockerfile outline
 
 ---------------------------------
 Process 
