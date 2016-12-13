@@ -1,0 +1,43 @@
+Planning your installation
+
+Preparing the system
+Setting up the user and group on UNIX and Linux systems
+Creating file systems on UNIX and Linux systems
+Operating System configuration and tuning for IBM MQ on UNIX and Linux systems, and IBM i
+
+http://www.ibm.com/support/knowledgecenter/SSFKSJ_8.0.0/com.ibm.mq.ins.doc/q008500_.htm
+
+
+
+Installing an IBM MQ server 
+===========================
+download the MQ trials version
+unzip and untar using ---
+As root,run the mqlicense.sh script. If you want to view a text-only version of the license, which can be read by a screen reader, type the following message:
+./mqlicense.sh -text_only
+
+
+install in default location 
+rpm -ivh MQSeriesRuntime-*.rpm MQSeriesServer-*.rpm
+
+installing in custom location 
+rpm --prefix /opt/customLocation -ivh MQSeriesRuntime-*.rpm
+MQSeriesServer-*.rpm
+
+-- customlocaiton is the location of installation 
+
+
+Related concepts:
+
+1. Multiple installations
+Choosing a primary installation
+
+
+2. Related information:
+setmqinst -->Changing the primary installation
+
+3. Related tasks:
+Uninstalling IBM MQ on Linux
+
+http://www.ibm.com/support/knowledgecenter/SSFKSJ_8.0.0/com.ibm.mq.ins.doc/q008640_.htm
+
