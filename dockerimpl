@@ -1,0 +1,282 @@
+ docker --tag mq2:2 c1d37231117b
+ docker --tag kiran:2 c1d37231117b
+ docker tag kiran:2 c1d37231117b
+ docker tag
+ docker tag c1d37231117b kiran
+ docker ps
+ sudo docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --volume /var/example:/var/mqm --publish 1414:1414 --detach kiran
+ docker exec -it 6419228bc36e404bf9d74450101f10729b074167731c7e4ea6ccf9eda630d17f /bin/bash
+ docker exec -it 6419228bc36e40 /bin/bash
+ docker ps
+ docker run --env LICENSE=accept \
+ cp run run2
+ chmod +x run2
+ ./run2
+ docker ps
+ carl
+ docker run --evn LICENSE=accept --env MQ_QMGR_NAME=QM1 --volume /var/example:/var/mqm --publish 1414:1414 kiran
+ docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --volume /var/example:/var/mqm --publish 1414:1414 kiran
+ docker ps
+ docker ps -a
+ docker logs 2ef14c1275ce
+ exitr
+ docker iamges
+ docker search centos |more
+ docker pull centos
+ docker run -it centos /bin/bash
+ cp Dockerfile Dockerfile75
+ docker build --tag mq75:2 ./docker/Dockerfile75
+ docker build --tag mq75:2 ./docker/ --file Dockerfile75
+ docker build --tag mq75:2 ./docker/ --file ./docker/Dockerfile75
+ docker run -it centos /bin/bash
+ docker build --tag mq75:2 ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75:2 ./docker/ --file ./docker/Dockerfile75
+ docker run -it centos /bin/bash
+ docker build --tag mq75:2 ./docker/ --file ./docker/Dockerfile75
+ docker run -it centos /bin/bash
+ docker rmi d27f38727cbb
+ docker rmi -f d27f38727cbb
+ docker tag 775a1af16559 mq75:latest
+ docker ps
+ docker stop e3d5032de241
+ docker rm e3d5032de241
+ ./run
+ docker exec -it 7b8312c37cfc451ef777546d266cce1a5372e9449c8414784683c0771ff11543 /bin/bash
+ docker ps -a
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker run -it mq75 /bin/bash
+ docker run -it mq75 /bin/bash
+ cp docker/Dockerfile7 script
+ cp docker/Dockerfile75 script
+ chmod +x script
+ ./script
+ ./script
+ ./script
+ /usr/bin/curl
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ docker build --tag mq75_2:latest ./docker/ --file ./docker/Dockerfile75
+ sudo docker build --tag mq:8 --file ./server/Dockerfile-mq8 ./server/
+ cp server/Dockerfile new/
+ docker rmi 037d03ea96c5 775a1af16559
+ docker rmi f86faa7761a5
+ docker rmi -f f86faa7761a5
+ docker rmi 775a1af16559 c1d37231117b
+ docker rmi 775a1af16559
+ docker rmi -f 775a1af16559
+ sudo docker build --tag mq:81 --file ./server/Dockerfile-mq8 ./new/
+ sudo docker build --tag mq:81 --file ./server/Dockerfile-mq8:q ./new/
+ cp server/Dockerfile-mq8 new/
+ sudo docker build --tag mq:81 --file ./new/Dockerfile-mq8 ./new/
+ sudo docker build --tag mq:81 --file ./new/Dockerfile-mq8 ./new/
+ docker run -it 1efb2886698f /bim/bash
+ docker run -it 1efb2886698f /bin/bash
+ docker run -it 1efb2886698f /bin/bash
+ wget http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/messaging/mqadv/mqadv_dev80_linux_x86-64.tar.gz
+ wget http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/messaging/mqadv/mqadv_dev80_linux_x86-64.tar.gz
+ sudo wget http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/messaging/mqadv/mqadv_dev80_linux_x86-64.tar.gz
+ docker cp mqadv_dev80_linux_x86-64.tar.gz jolly_borg:/opt
+ docker search centos
+ docker search |more
+ docker search
+ docker search
+ docker search centos
+ docker search centos|more
+ docker pull centos/mariadb55-centos7
+ docker run -it centos/mariadb55-centos7 /bin/bash
+ docker stop $(docker ps -a -q)
+ docker ps -a
+ docker ps -a
+ docker rm $(docker ps -a -q)
+ docker ps -a
+ docker ps
+ docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --volume /var/example:/var/mqm --publish 1414:1414 \
+ docker run -it
+ docker ps
+ docker run -it --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --volume /var/example:/var/mqm --publish 1414:1414 mq75
+ docker run -it centos /bin/bash
+ docker rmi 1efb2886698f
+ docker rmi -f 1efb2886698f
+ docker run -it centos /bin/bash -d
+ docker run centos /bin/bash -d
+ docker run -it centos /bin/bash
+ docker run -d centos /bin/bash
+ docker cp mqadv_dev80_linux_x86-64.tar.gz 3c2f3cc4a7c3:/opt/
+ docker exec -it 3c2f3cc4a7c3602a1c97f2b33ad1b92330514e2213564a1769aab8b4127bea06/bin/bash
+ mqadv_dev80_linux_x86-64.tar.gz
+ kiran@mqdocker:/opt$ docker cp mqadv_dev80_linux_x86-64.tar.gz 3c2f3cc4a7c3:/opt/
+ kiran@mqdocker:/opt$ docker exec -it /bin/bash
+ docker ps
+ docker ps -a
+ docker rm ${docker ps -a -q}
+ docker rm $(docker ps -a -q)
+ docker ps
+ docker run -d centos /bin/bash
+ docker cp mqadv_dev80_linux_x86-64.tar.gz 89d222204:/opt
+ docker exec -it 89d222204 /bin/bash
+ docker ps
+ docker run -it centos /bin/bash
+ clar
+ cp Dockerfile Dockerfile2
+ docker run -it centos /bin/bash
+ docker build --tag mq8:8 --file docker/Dockerfile2 ./docker/
+ docker build --tag mq8:8 --file docker/Dockerfile2 ./docker/
+ docker run -it 9c5e388d7c7d /bin/bash
+ docker build --tag mq8:8 --file docker/Dockerfile2 ./docker/
+ sudo chmod 777 /opt/
+ sudo chmod 777 *
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 /home/kiran/docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 /home/kiran/docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 /home/kiran/docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 /home/kiran/docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 /home/kiran/docker/
+ mv mqadv_dev80_linux_x86-64.tar.gz /home/kiran/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 .docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ sudo chown docker:docker mqadv_dev80_linux_x86-64.tar.gz
+ sudo chown docker:kiran mqadv_dev80_linux_x86-64.tar.gz
+ sudo chown kiran:docker mqadv_dev80_linux_x86-64.tar.gz
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ c;ear
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker rmi 85c0897c09be 32365a9016f4 602f3889a3b1
+ docker rmi -f 85c0897c09be 32365a9016f4 602f3889a3b1
+ docker rmi -f 9c5e388d7c7d
+ docker rmi -f 1d0c0e09b547
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ wget
+ wget https://archive.apache.org/dist/activemq/5.14.0/apache-activemq-5.14.0-bin.tar.gz
+ docker image
+ docker rmi 703fefae5f5e
+ docker build --tag mq10:10 --file /home/kiran/docker/Dockerfile2 ./docker/
+ docler img
+ docker tag
+ docker tag 8b28ce920189 mq10
+ docker run -it mq10 /bin/bash
+ docker cp mqadv_dev75_linux_x86-64.tar.gz 493fa2e84863:/tmp/mq
+ docker attach
+ docker attach 493fa2e84863
+ docker attach 493fa2e84863
+ tail -f vbox-install.log
+ VBoxManage list extpacks
+ VBoxManage list extpacks
+ $ VBoxManage createvm --name "testvm" --register
+ VBoxManage createvm --name "testvm" --register
+ VBoxManage storagectl "testvm" --name "IDE Controller" --add ide
+ wget http://mirror.clarkson.edu/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso
+ wget http://mirror.clarkson.edu/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso
+ sudo mount -o loop /home/kiran/CentOS-7-x86_64-Minimal-1611.iso /media/iso
+ sudo mount -o loop /home/kiran/CentOS-7-x86_64-Minimal-1611.iso /media/iso
+ mount -l
+ umount -f /mnt/iso
+ sudo umount -f /mnt/iso
+ mount
+ umount /media/iso/
+ sudo umount /media/iso/
+ ln -s /home/kiran/CentOS-7-x86_64-Minimal-1611.iso CentOS-7-x86_64-Minimal-1611.iso
+ sudo ln -s /home/kiran/CentOS-7-x86_64-Minimal-1611.iso CentOS-7-x86_64-Minimal-1611.iso
+ VBoxHeadless --startvm "testvm" &
+ sudo VBoxHeadless --startvm "testvm" &
+ sudo VBoxHeadless --startvm "testvm"
+ history |grep VBoxM
+ history |grep VBoxM >start
+ sudo history |grep VBoxM >start
+ sudo history |grep VBoxM
+ sudo history |grep VBoxM >start
+ sudo chown -R kiran:kiran /home/kiran/vm
+ sudo chown -R kiran:kiran /home/vm/
+ history |grep VBoxM >start
+ awk '{for (i=2; i<=NF; i++) print $i}' start
+ awk '{for (i=2; i<=NF; i++) print $i}' start
+ VBoxManage
+ VBoxManage|grep -i delete
+ VBoxManage|grep -i delete
+ ps -ef|grep VBox
+ vboxmanage list runningvms
+ mv CentOS-7-x86_64-Minimal-1611.iso /media/iso/
+ sudo mv CentOS-7-x86_64-Minimal-1611.iso /media/iso/
+ VBoxHeadless --startvm "testvm" &
+ VBoxHeadless --startvm "testvm" &
+ sudo mv /media/iso/CentOS-7-x86_64-Minimal-1611.iso /iso/
+ isb_release -a
+ aptget install isb_release
+ apt-get install isb_release
+ sudo apt-get install isb_release
+ VBoxManage
+ VBoxManage
+ ps -ef|grep -ivbox
+ ps -ef|grep -i vbox
+ ps -ef|grep -i vbox
+ ps -ef|grep -i vbox
+ ps -ef VBoxSVC
+ ps -ef|grep -i VBoxSVC
+ VBOXVERSION=`VBoxManage --version | sed -r 's/([0-9])\.([0-9])\.([0-9]{1,2}).*/\1.\2.\3/'`
+ VBoxManage extpack install --replace Oracle*.vbox-extpack
+ VBoxManage extpack install --replace Oracle*.vbox-extpack
+ sudo VBoxManage extpack install --replace Oracle*.vbox-extpack
+ sudo VBoxManage list extpacs
+ sudo VBoxManage list extpaks
+ sudo VBoxManage list extpacks
+ sudo VBoxManage list extpacks
+ VBoxManage createvm --name "testvm" --register
+ VBoxHeadless --startvm "testvm" &
+ sudo VBoxHeadless --startvm "testvm" &
+ sudo VBoxManage list runningvm
+ sudo VBoxManage list runningvms
+ sudo VBoxHeadless --startvm "testvm" &
+ sudo VBoxManage
+ sudo VBoxManage list
+ sudo VBoxManage list vms
+ sudo VBoxManage list vms
+ VBoxManage list vms
+ VBoxManage showvminfo VNAS
+ VBoxManage showvminfo "testvm"
+ VBoxManage unregistervm
+ VBoxManage unregistervm
+ VBoxManage list vms
+ VBoxManage unregistervm dc60efc4-a583-4442-93aa-3a2b7f6980a9
+ VBoxManage list vms
+ VBoxManage unregistervm testvm
+ VBoxManage list vms
+ ./start
+ VBoxManage list vms
+ VBoxManage createvm --name "testvm" --register
+ rm -rf testvm/
+ VBoxManage createvm --name "testvm" --register
+ ./start
+ VBoxHeadless --startvm "testvm" &
+ sudo VBoxHeadless --startvm "testvm" &
+ sudo VBoxHeadless --startvm 3ade1a7e-6570-41d7-9456-23c620bfa7d3 &
+ sudo VBoxHeadless --startvm 3ade1a7e-6570-41d7-9456-23c620bfa7d3 &
+ VBoxManage list vms
+ sudo VBoxHeadless --startvm testvm &
+ history |grep -i vbox
+ history |grep -i vbox >command
+ activemq
+ activemq status
+ javac sender.java
+ sudo apt install default-jdk
+ javac sender.java
+ javac sender.java
+ javac sender.java
