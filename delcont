@@ -1,2 +1,10 @@
  docker rm $(docker ps -a -q)
 
+# deleting the volume
+
+To delete all volumes not in use, try:
+
+
+$ docker volume rm $(docker volume ls -q)
+1
+$ docker volume rm $(docker volume ls -q)
