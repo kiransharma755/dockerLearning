@@ -10,3 +10,7 @@ https://instruqt.com/public/tracks/deploying-an-app-on-kubernetes
 
 
 https://kubernetes.io/docs/tutorials/online-training/overview/
+
+
+useful repo
+https://github.com/cmcornejocrespo/devops-training-material
