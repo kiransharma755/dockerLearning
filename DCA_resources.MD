@@ -14,3 +14,7 @@ https://kubernetes.io/docs/tutorials/online-training/overview/
 
 useful repo
 https://github.com/cmcornejocrespo/devops-training-material
+
+
+multihost docker with overlay network and etcd
+https://www.singlestoneconsulting.com/articles/docker-networking
