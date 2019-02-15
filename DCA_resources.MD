@@ -18,3 +18,17 @@ https://github.com/cmcornejocrespo/devops-training-material
 
 multihost docker with overlay network and etcd
 https://www.singlestoneconsulting.com/articles/docker-networking
+
+
+dockerd - daemon configuraiton 
+
+[root@centos docker]# cat daemon.json
+{
+  "debug": true,
+  "tls": true,
+  "tlscert": "/etc/docker/servercert.pem",
+  "tlskey": "/etc/docker/serverkey.pem",
+  "hosts": ["tcp://192.168.86.32:2376"]
+}
+[root@centos docker]#
+/etc/docker/daemon.json
